@@ -3,10 +3,8 @@ import React from 'react'
 const HeroSection = () => {
       return (
         <section className="relative min-h-screen flex flex-col items-center justify-center text-center bg-gradient-to-b from-[#0b0b0b] via-[#1a1a1a] to-black text-white px-6 overflow-hidden">
-        {/* Orange glow i bakgrunden */}
         <div className="absolute top-0 left-0 w-[600px] h-[600px] bg-orange-500/20 blur-[200px] rounded-full"></div>
   
-        {/* Innehåll */}
         <div className="relative z-10 max-w-3xl">
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight tracking-tight">
             <span className="block">Discover a</span>
