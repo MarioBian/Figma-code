@@ -55,7 +55,7 @@ const Services = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Why choose us</h2>
         <p className="text-gray-400 mb-6 max-w-md">
         </p>
-        <button className="btn btn-warning font-semibold">Learn More</button>
+        <button className="text-yellow-600 border border-yellow-600 font-medium rounded-sm text-sm px-6 py-0.5 text-center me-2 mb-2 ">Let´s connect</button>
       </div>
     </div>
   </section>
