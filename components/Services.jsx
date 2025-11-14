@@ -50,14 +50,14 @@ const Services = () => {
 
   <div className="mt-10 flex flex-col items-center gap-6 opacity-70">
 
-  {/* Rad 1 – 6 boxar */}
+
   <div className="flex flex-wrap justify-center gap-6">
     {Array.from({ length: 6 }).map((_, i) => (
       <div key={i} className="h-8 w-24 bg-gray-700 rounded-md"></div>
     ))}
   </div>
 
-  {/* Rad 2 – 5 boxar */}
+
   <div className="flex flex-wrap justify-center mr-10 gap-6">
     {Array.from({ length: 6 }).map((_, i) => (
       <div key={i} className="h-8 w-24 bg-gray-700 rounded-md"></div>

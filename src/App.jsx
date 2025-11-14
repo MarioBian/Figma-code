@@ -3,6 +3,7 @@ import './App.css'
 import HeroSection from '../components/HeroSection'
 import NavBar from '../components/NavBar'
 import Services from '../components/Services'
+import FeedBack from '../components/FeedBack'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <HeroSection/>
     </section>
     <Services/>
+    <FeedBack/>
     </>
   )
 }
