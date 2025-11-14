@@ -35,22 +35,34 @@ const services = [
 const Services = () => {
   return (
     <section className="bg-[#0b0b0b] text-white py-24">
-    <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-center gap-4 mb-16 text-center md:text-left">
-  <p className="text-gray-400 uppercase tracking-widest text-sm">
-    Trusted by 200+ companies <br /> around the world{" "}
-  </p>
+ <div className="max-w-6xl mx-auto px-6 mb-16">
+  <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+    <p className="text-gray-400 uppercase tracking-widest text-sm">
+      Trusted by 200+ companies <br /> around the world
+    </p>
 
-  <span className="text-gray-500 text-[11px] tracking-[0.15em] leading-tight max-w-sm">
-    Vulputate molestie molestie amet leo blandit accumsan. Sapien sed amet tellus
-    purus sit odio eget. Diam morbi faucibus vitae neque id in. Nullam sed et
-    dapibus nunc, porta enim orci urna, sit. Lectus ac. 
-  </span> 
-      <div className="mt-8 flex flex-wrap justify-center items-center gap-8 opacity-70">
-        <div className="h-8 w-24 bg-gray-700 rounded-md"></div>
-        <div className="h-8 w-24 bg-gray-700 rounded-md"></div>
-        <div className="h-8 w-24 bg-gray-700 rounded-md"></div>
-        <div className="h-8 w-24 bg-gray-700 rounded-md"></div>
-        <div className="h-8 w-24 bg-gray-700 rounded-md"></div>
+    <span className="text-gray-500 text-[11px] tracking-[0.15em] leading-tight max-w-sm">
+      Vulputate molestie molestie amet leo blandit accumsan. Sapien sed amet tellus purus sit
+      odio eget. Diam morbi faucibus vitae neque id in. Nullam sed et dapibus nunc, porta enim
+      orci urna, sit. Lectus ac.
+    </span>
+  </div>
+
+  <div className="mt-10 flex flex-col items-center gap-6 opacity-70">
+
+  {/* Rad 1 – 6 boxar */}
+  <div className="flex flex-wrap justify-center gap-6">
+    {Array.from({ length: 6 }).map((_, i) => (
+      <div key={i} className="h-8 w-24 bg-gray-700 rounded-md"></div>
+    ))}
+  </div>
+
+  {/* Rad 2 – 5 boxar */}
+  <div className="flex flex-wrap justify-center gap-6">
+    {Array.from({ length: 5 }).map((_, i) => (
+      <div key={i} className="h-8 w-24 bg-gray-700 rounded-md"></div>
+    ))}
+  </div>
       </div>
     </div>
 
