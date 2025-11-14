@@ -20,7 +20,7 @@ const NavBar = () => {
       <li><a>Services</a></li>
       <li><a>Resources</a></li>
     </ul>
-    <button type="button" class="text-yellow-600 border border-yellow-600 font-medium rounded-sm text-sm px-6 py-0.5 text-center me-2 mb-2 ">Contact</button>
+    <button type="button" className="text-yellow-600 border border-yellow-600 font-medium rounded-sm text-sm px-6 py-0.5 text-center me-2 mb-2 ">Contact</button>
 
   </div>
 </div>
