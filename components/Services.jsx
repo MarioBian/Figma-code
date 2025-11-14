@@ -43,8 +43,8 @@ const Services = () => {
   <span className="text-gray-500 text-[11px] tracking-[0.15em] leading-tight max-w-sm">
     Vulputate molestie molestie amet leo blandit accumsan. Sapien sed amet tellus
     purus sit odio eget. Diam morbi faucibus vitae neque id in. Nullam sed et
-    dapibus nunc, porta enim orci urna, sit. Lectus ac.
-  </span>
+    dapibus nunc, porta enim orci urna, sit. Lectus ac. 
+  </span> 
       <div className="mt-8 flex flex-wrap justify-center items-center gap-8 opacity-70">
         <div className="h-8 w-24 bg-gray-700 rounded-md"></div>
         <div className="h-8 w-24 bg-gray-700 rounded-md"></div>
@@ -55,10 +55,15 @@ const Services = () => {
     </div>
 
     <div className="max-w-6xl mx-auto px-6 text-center mb-24">
-      <h2 className="text-3xl md:text-4xl font-bold mb-4">We Offer</h2>
-      <p className="text-gray-500 text-[11px] tracking-[0.15em] leading-tight max-w-sm">
-      Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt. 
-      </p>
+  <h2 className="text-3xl md:text-4xl font-bold mb-4">
+    We Offer
+  </h2>
+
+  <p className="text-gray-500 mt-5 mb-5 text-[11px] tracking-[0.15em] leading-tight max-w-sm mx-auto">
+    Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat
+    scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci
+    a tincidunt.
+  </p>
 
       <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {services.map((service, i) => (
