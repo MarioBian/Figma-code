@@ -32,6 +32,7 @@ const FeedBack = () => {
     <h3 className="text-xl font-semibold">{feedback.title}</h3>
   </div>
 
+
   <p className="text-gray-500 text-[11px] tracking-[0.15em] leading-tight">
     {feedback.text}
   </p>
